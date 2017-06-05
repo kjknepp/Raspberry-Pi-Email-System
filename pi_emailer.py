@@ -11,7 +11,11 @@ MY_PSWD = 'PPF_Raspberry'
 
 ENABLE_SUBJECT = 'Enable Email Updates'
 DISABLE_SUBJECT = 'Disable Email Updates'
-LIST_FILE = '/home/pi/Documents/Raspberry-Pi-Email-System/email_list.p'
+
+
+#LIST_FILE = '/home/pi/Documents/Raspberry-Pi-Email-System/email_list.p'
+LIST_FILE = 'email_list.p'
+
 
 ENABLED = 'ENABLED'
 DISABLED = 'DISABLED'
