@@ -1,11 +1,11 @@
 #! /usr/bin/env bash
 
-sleep 30s
+#sleep 30s
 
 wget -q --spider http://google.com
 
 if [ $? -eq 0 ]; then
 	addr=$(ifconfig | grep inet\ addr | head -n 1 | cut -d' ' -f12)
-	#python /home/pi/Documents/Raspberry-Pi-Email-System/pi_emailer.py $addr
-	python pi_emailer.py $addr
+	python /home/pi/Documents/Raspberry-Pi-Email-System/pi_emailer.py $addr
+	#python pi_emailer.py $addr
 fi
